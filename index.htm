@@ -12,20 +12,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    fontFamily: {
+                        manrope: ['Manrope', 'serif'],
+                    },
+                },
+            },
+        };
+    </script>
     <!-- fontawseone cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./images/cup.png" type="image/x-icon">
 </head>
-<body>
+<body class="font-manrope">
     <nav>
 
 
@@ -282,7 +285,7 @@
                  <!-- newss card -->
                   <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-16 mb-10">
                     <!-- card no one -->
-                    <div class="space-y-4 h-[448px] w-[364px] px-5 py-5 border-solid border-2 border-gray-300 rounded-lg">
+                    <div class="shadow-md space-y-4 h-[448px] w-[364px] px-5 py-5 border-solid border-2 border-gray-300 rounded-lg">
                         <img src="./images/news-1.png" alt="" class="w-auto border-dashed  border-2 border-gray-3 00">
                         <!-- news content -->
                          <div class="space-y-2 p-2">
@@ -299,7 +302,7 @@
                          </div>
                     </div>
                     <!-- card no two -->
-                    <div class="space-y-4 h-[448px] w-[364px] px-5 py-5 border-solid border-2 border-gray-300 rounded-lg">
+                    <div class="shadow-md space-y-4 h-[448px] w-[364px] px-5 py-5 border-solid border-2 border-gray-300 rounded-lg">
                         <img src="./images/news-2.png" alt="" class="w-auto border-dashed  border-2 border-gray-3 00">
                         <!-- news content -->
                          <div class="space-y-2 p-2">
@@ -316,7 +319,7 @@
                          </div>
                     </div>
                     <!-- card no three -->
-                    <div class="space-y-4 h-[448px] w-[364px] px-5 py-5 border-solid border-2 border-gray-300 rounded-lg">
+                    <div class="shadow-md space-y-4 h-[448px] w-[364px] px-5 py-5 border-solid border-2 border-gray-300 rounded-lg">
                         <img src="./images/news-3.png" alt="" class="w-auto border-dashed  border-2 border-gray-3 00">
                         <!-- news content -->
                          <div class="space-y-2 p-2">
@@ -410,7 +413,7 @@
               </div>
               <div class="text-center pt-4 mt-4">
 
-                <p class="text-sm text-gray-600">
+                <p class="text-sm text-black">
                     © 2027 UIDesign.to - All rights reserved.
                 </p>
 
